@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
-
+#actitime operation
 driver=webdriver.Chrome()
 driver.get("http://localhost/login.do")
 # driver.find_element(By.CSS_SELECTOR,"[type='checkbox']").click()
